@@ -7,7 +7,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-  title: "KBlog",
+  title: "Kblog",
   subtitle: "Home",
   lang: "en", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
@@ -30,19 +30,23 @@ export const siteConfig: SiteConfig = {
   },
   favicon: [
     // Leave this array empty to use the default favicon
-    //  {
-    //   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
-    //   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-    //   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-    // }
+    {
+      src: "/favicon/cat-logo.svg", // Path of the favicon, relative to the /public directory
+      // theme: "light", // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+      // sizes: "32x32", // (Optional) Size of the favicon, set only if you have favicons of different sizes
+    },
   ],
 };
 
 export const navBarConfig: NavBarConfig = {
   links: [
-    LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
+    {
+      name: "Mytools",
+      url: "https://www.kaminzhi.com/",
+      external: true,
+    },
     {
       name: "GitHub",
       url: "https://github.com/kaminzhi/KBlog", // Internal links should not include the base path, as it is automatically added
