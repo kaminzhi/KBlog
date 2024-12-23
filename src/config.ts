@@ -16,12 +16,14 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: "./assets/images/main.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-    position: "bottom", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+    src: "assets/images/rain.gif", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: true, // Display the credit text of the banner image
-      text: "Dity Pretty - 理想的な作動角", // Credit text to be displayed
-      url: "https://www.pixiv.net/artworks/111639598", // (Optional) URL link to the original artwork or artist's page
+      // text: "Dity Pretty - 理想的な作動角", // Credit text to be displayed
+      text: "ryoga-deactivated20231223 - rain",
+      url: "https://www.tumblr.com/animeraingifs/161422863820",
+      // url: "https://www.pixiv.net/artworks/111639598", // (Optional) URL link to the original artwork or artist's page
     },
   },
   toc: {
@@ -40,13 +42,9 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
   links: [
+    LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
-    {
-      name: "Mytools",
-      url: "https://www.kaminzhi.com/",
-      external: true,
-    },
     {
       name: "GitHub",
       url: "https://github.com/kaminzhi/KBlog", // Internal links should not include the base path, as it is automatically added
@@ -57,9 +55,14 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: "https://avatars.githubusercontent.com/u/72861268?v=4", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: "Kamin (or Conch)",
+  name: "Kamin (神奇海螺)",
   bio: "Thinking About Something ...... I'm 19 Years Old",
   links: [
+    {
+      name: "Website",
+      icon: "fa6-brands:square-font-awesome",
+      url: "https://www.kaminzhi.com",
+    },
     {
       name: "Twitter",
       icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
@@ -68,7 +71,7 @@ export const profileConfig: ProfileConfig = {
       url: "https://twitter.com/kamin_zhi",
     },
     {
-      name: "Steam",
+      name: "Discord",
       icon: "fa6-brands:discord",
       url: "https://discordapp.com/users/kamin_zhi",
     },
