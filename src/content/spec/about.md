@@ -2,11 +2,12 @@
 
 安安, 這裡是紀錄生活筆記的地方@w@
 
+可以去看看我寫的網頁#V#  [點我](https://www.kaminzhi.com)
+
 ::github{repo="kaminzhi/KBlog"}
 
-> ### Sources of images used in this site
+> ### This site is made with Fuwari.
 >
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
-
+> ::github{repo="saicaca/fuwari"}
+> ### Image
+> - [ryoga-deactivated20231223](https://www.tumblr.com/animeraingifs/161422863820)
